@@ -60,7 +60,8 @@ from read_write_excel import write_data
 #
 #
 # run()
-
+import sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="gb18030")
 
 # 函数内的变量 --局部的  函数外的 --全局的
 Token=None#全局变量，初始值设置为None

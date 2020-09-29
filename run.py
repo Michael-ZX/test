@@ -18,9 +18,9 @@
 #     expected=eval(test_data[6])
 #     print("最后的结果值：",response)
 
-from QCD.read_write_excel import read_data
-from QCD.http_request import http_request
-from QCD.read_write_excel import write_data
+from read_write_excel import read_data
+from http_request import http_request
+from read_write_excel import write_data
 # from openpyxl import load_workbook
 
 # # 函数内的变量 --局部的  函数外的 --全局的

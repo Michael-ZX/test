@@ -38,7 +38,3 @@ def run(file_name,sheet_name,c1,c2):
 # 执行充值的接口
 run('test_case_recharge.xlsx','recharge',8,9)
 
-
-
-
-
